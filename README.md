@@ -34,3 +34,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## About this Project
+
+CariLawan adalah sebuah website untuk membantu anda mencari lawan bermain Futsal.
+
+<p>Selama project ini berlangsung terdiri dari 4 anggota dan dibagi berbagai divisi :</p>
+<ul>
+ <li><a href="https://github.com/monsterkronus">Ghozy</a> sebagai UI/UX & Front-End Engineer</li>
+ <li><a href="https://github.com/rprasya">Rinaldi</a> sebagai Front-End Engineer</li>
+ <li><a href="https://github.com/Lyraeth">Farhan</a> sebagai Back-End Engineer</li>
+ <li><a href="https://github.com/fazrilarief">Fazril</a> sebagai Back-End Engineer</li>
+</ul>
+
+Dalam Mendevelop Website ini kami menggunakan tools :
+<ul>
+ <li>UI/UX Designer : Figma</li>
+ <li>Front-End : Next.js, Tailwindcss</li>
+ <li>Back-End : Next.js, Prisma, Postman, MySql</li>
+ <li>Management Project : Notions, Discord</li>
+</ul>
