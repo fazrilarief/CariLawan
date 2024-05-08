@@ -2,22 +2,22 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## About this Project
 
-CariLawan adalah sebuah website untuk membantu anda mencari lawan bermain Futsal.
+CariLawan is a website designed to help you find opponents for Futsal matches.
 
-<p>Selama project ini berlangsung terdiri dari 4 anggota dan dibagi berbagai divisi :</p>
+<p>Throughout this project, there are 4 team members divided into various divisions:</p>
 <ul>
- <li><a href="https://github.com/monsterkronus">Ghozy</a> sebagai UI/UX & Front-End Engineer</li>
- <li><a href="https://github.com/rprasya">Rinaldi</a> sebagai Front-End Engineer</li>
- <li><a href="https://github.com/Lyraeth">Farhan</a> sebagai Back-End Engineer</li>
- <li><a href="https://github.com/fazrilarief">Fazril</a> sebagai Back-End Engineer</li>
+ <li><a href="https://github.com/monsterkronus">Ghozy</a> as UI/UX & Front-End Engineer</li>
+ <li><a href="https://github.com/rprasya">Rinaldi</a> as Front-End Engineer</li>
+ <li><a href="https://github.com/Lyraeth">Farhan</a> as Back-End Engineer</li>
+ <li><a href="https://github.com/fazrilarief">Fazril</a> as Back-End Engineer</li>
 </ul>
 
-Dalam Mendevelop Website ini kami menggunakan tools :
+<p>In developing this website, we utilized the following tools:</p>
 <ul>
- <li>UI/UX Designer : Figma</li>
- <li>Front-End : Next.js, Tailwindcss</li>
- <li>Back-End : Next.js, Prisma, Postman, MySql</li>
- <li>Management Project : Notions, Discord</li>
+ <li>UI/UX Designer: Figma</li>
+ <li>Front-End: Next.js, Tailwind CSS</li>
+ <li>Back-End: Next.js, Prisma, Postman, MySQL</li>
+ <li>Project Management: Notion, Discord</li>
 </ul>
 
 ## Getting Started
