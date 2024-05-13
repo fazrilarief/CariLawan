@@ -9,6 +9,10 @@ export async function GET(request, { params }) {
       where: { id },
     });
 
+    if (!uniqueUser) {
+      return NextResponse.json({ message: `there's no user with id: ${id}` });
+    }
+
     return NextResponse.json(uniqueUser);
   } catch (err) {
     console.error("Error viewing user", err);

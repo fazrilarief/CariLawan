@@ -23,7 +23,7 @@ export default function Home() {
         <div data-aos="fade-right" className="card-body">
           <div className="chat chat-start">
             <div className="chat-bubble">
-              <Link href={"/users"}>Users</Link>
+              <Link href={"/profile"}>Users</Link>
             </div>
           </div>
         </div>
