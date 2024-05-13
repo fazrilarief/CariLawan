@@ -14,20 +14,25 @@ datasource db {
 }
 
 model Users {
-  id       Int    @id @default(autoincrement())
-  nickname String @unique
-  email    String @unique
-  password String
-  phone    String @unique
+  id        Int      @id @default(autoincrement())
+  nickname  String   @unique
+  email     String   @unique
+  password  String
+  phone     String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   // Relation to Teams
   Team Teams?
 }
 
 model Teams {
-  id       Int    @id @default(autoincrement())
-  teamName String
-  img_url  String
+  id        Int      @id @default(autoincrement())
+  teamName  String
+  img_url   String?
+  status    String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   // Relation to Users
   Users   Users? @relation(fields: [usersId], references: [id])
@@ -35,16 +40,31 @@ model Teams {
 
   // Relation to Players
   Player Players[]
+
+  // Relation to Historys
+  Historys Historys[]
 }
 
 model Players {
-  id       Int    @id @default(autoincrement())
-  name     String
-  position String
-  age      Int
-  imageUrl String
+  id        Int      @id @default(autoincrement())
+  name      String
+  position  String
+  age       Int
+  imageUrl  String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   // Relation to Teams
   Team    Teams? @relation(fields: [teamsId], references: [id])
+  teamsId Int?
+}
+
+model Historys {
+  id        Int      @id @default(autoincrement())
+  createdAt DateTime @default(now())
+  editedAt  DateTime @updatedAt
+
+  // Relation to Teams
+  Teams   Teams? @relation(fields: [teamsId], references: [id])
   teamsId Int?
 }
